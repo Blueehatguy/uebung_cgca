@@ -16,8 +16,7 @@ public class Vector {
     
     //a.	Eine Funktion, die zwei dreidimensionale Vektoren addiert    
     public Vector plus(Vector v) {
-        // TODO: Aufgabe a) Vektoraddition implementieren
-        return null;
+        return new Vector(this.x + v.x, this.y + v.y, this.z + v.z);
     }
     
     //b.	Eine Funktion, die einen dreidimensionalen Vektor mit einem Skalar multipliziert
